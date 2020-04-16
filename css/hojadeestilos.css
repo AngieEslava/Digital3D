@@ -1,4 +1,84 @@
+body {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
 .borde{
     border: 1px solid black;
     padding: 15px;
+}
+#cabecera {
+    text-align: center;
+}
+#menu {
+    text-align: center;
+}
+#menu a {
+    display: inline-block;
+    background: rgb(179, 187, 196);
+    color: black;
+    padding: 1px 20px 1px 20px;
+    text-decoration: none;
+    line-height: normal;
+    width:15%;
+    border-radius: 5px;
+}
+#menu a:hover{
+    color: azure;
+    background: rgb(7, 167, 167);
+}
+#menu a:active {
+    color: rgb(14, 0, 27);
+}
+#menu .menu-activo {
+    background-color:  rgb(7, 167, 167);/* !important */
+}
+#sec-quiensoy {
+    display: flex;
+}
+#soydg {
+    margin-bottom: 1%;
+}
+#p-justify {
+    text-align: justify;
+}
+#line {
+    background-color: black;
+    width: 280px;
+    height: 3px;
+    border-radius: 50%;
+    transform: rotate(1deg);
+    margin-left: 0px;
+}
+#dedicacion {
+    color: aliceblue;
+    background-color: steelblue;
+    text-align: center;
+}
+#line-dedicacion {
+    background-color: black;
+    width: 280px;
+    height: 3px;
+    border-radius: 50%;
+    transform: rotate(1deg);
+}
+#como-ayudar{
+    text-align: center;
+}
+#como-ayudar #servicios {
+    display: flex;
+    justify-content: space-between;
+}
+#como-ayudar #servicios .espacio {
+    margin-left: 30px;
+}
+#como-ayudar #servicios article {
+    background-color: chocolate;
+    color: aliceblue;
+    border: cornflowerblue;
+}
+#herramientas {
+    
 }
