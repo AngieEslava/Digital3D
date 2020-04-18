@@ -14,12 +14,19 @@ body {
 }
 #menu {
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    justify-content: space-around;
+    align-items: stretch;
 }
 #menu a {
-    display: inline-block;
+    /* display: inline-block; */
     background: rgb(179, 187, 196);
     color: black;
-    padding: 1px 20px 1px 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 8px;
     text-decoration: none;
     line-height: normal;
     width:15%;
@@ -79,6 +86,44 @@ body {
     color: aliceblue;
     border: cornflowerblue;
 }
-#herramientas {
-    
+#como-ayudar .boton-ver{
+    background-color: white;
+    border: 1px solid black;
+    color: chocolate;
+    padding: 5px;
+    box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
 }
+#como-ayudar .boton-ver{
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+    color: #4890cb;
+}
+#sec_contenedor_lg{
+    width: 90%;
+    height: 500px;
+    background-color: chocolate;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cnt_img_lg{
+    background: gray;
+    width: 100px;
+    height: 50px;
+    color: aliceblue;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    flex-grow: 1;
+    flex: 1 1 auto;
+}
+#empleados {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: red;
+    }
+  }
